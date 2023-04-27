@@ -10,12 +10,14 @@
 
 <body>
     <?php
+    $v1 = $_GET["x"];
+    $v2 = $_GET["y"];
+    echo "<h2> Os valores rebecidos $v1 e $v2";
+    echo "<br>O valor absoluto de $v2 é ". abs($v2) 
 
-    $nome = "Maria";
-    $idade = 17;
 
-    echo $nome . " tem " . $idade . " anos";
-    ?>
+
+    ?>  
 </body>
 
 </html>

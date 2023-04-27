@@ -10,11 +10,10 @@
 
 <body>
     <?php
-
-    $nome = "Maria";
-    $idade = 17;
-
-    echo $nome . " tem " . $idade . " anos";
+    $n1 = 5;
+    $n2 = 6;
+    $soma = $n1 + $n2;
+    echo "A soma entre $n1 e $n2 é igual a $soma";
     ?>
 </body>
 
