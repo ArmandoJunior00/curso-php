@@ -13,11 +13,14 @@
     $v1 = $_GET["x"];
     $v2 = $_GET["y"];
     echo "<h2> Os valores rebecidos $v1 e $v2";
-    echo "<br>O valor absoluto de $v2 é ". abs($v2) 
+    echo "<br>O valor absoluto de $v2 é " . abs($v2);
+    echo "<br>o valor de $v1<sup>$v2</sup> e " . pow($v1, $v2);
+    echo "<br> A raiz quadrada de $v1 é " . sqrt($v1);
+    echo"<br> o valor de $v2 arredondado é " . round($v2);
+    echo "<br>a parte inteira de $v2 é " . intval($v2);
 
 
-
-    ?>  
+    ?>
 </body>
 
 </html>
