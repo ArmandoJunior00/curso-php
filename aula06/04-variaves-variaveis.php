@@ -10,6 +10,17 @@
 
 <body>
     <?php
+    $x = "abc";
+    $$x = "def";
+
+    echo "O conteudo da variavel X é $x";
+    echo "<br>A variavel ABC recebeu $abc";
+
+    $a = "jkl";
+    $$a = "xyz";
+    echo "<br>O conteudo da variavel A é $a";
+    echo "<br> a varival jkl recebeu $jkl";
+
     ?>
 </body>
 
